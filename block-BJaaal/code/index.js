@@ -36,9 +36,10 @@ const taxPercent = 10;
 */
 const userName="Seema";
 let bio =`Learning to code.`;
-alert(`I am`+ " " + userName +`and my bio is`+" " + bio);
-alert(`I'm` +" "+ firstName+ " " + lastName +" "+` of Winterfell`);
+alert(`I am`+ " " + userName +` and my bio is `+" " + bio);
+alert("I\'m "+" "+ firstName+ " " + lastName +" "+" of Winterfell");
 alert(`I am ${userName} and my bio is ${bio}`);
 alert(`I'm ${firstName} ${lastName} of Winterfell`);
-alert(`The total amount is ${amount} \n the tax amount is ${(amount* taxPercent)/100}`);
+alert(`The total amount is ${amount} 
+the tax amount is ${(amount* taxPercent)/100}`);
 alert("The total amount is " + amount + "\n the tax amount is " + (amount* taxPercent)/100);
