@@ -7,7 +7,7 @@
   - `if` the number is odd print the message "number is odd"
 */
 
-let num=+prompt("Enter the number:");
+let num = +prompt("Enter the number:");
 if (num % 2 === 0){
   alert("Number is even");
 }
@@ -27,8 +27,8 @@ let num2 = +prompt("Enter the second number");
 /*
 // 3. Convert the above code using`?` terniary operator
 */
-num1=+prompt("Enter the first number");
-num2=+prompt("Enter the second number");
+num1 = +prompt("Enter the first number");
+num2 = +prompt("Enter the second number");
 (num1 > num2)?alert(`${num1} is greater`):alert(`${num2} is greater`);
 /*
 
@@ -64,7 +64,7 @@ switch (house1){
 }
 
 // 6. Write a program that takes the number of the month(1 - 12) and alert number of days in the month.
-let month=+prompt(`Enter the numer of the  month`)
+let month = +prompt(`Enter the numer of the  month`)
   switch(month){
     case 1:
       alert("Jan has 31 Days");
@@ -117,23 +117,29 @@ let month=+prompt(`Enter the numer of the  month`)
 let salary = +prompt("Enter your salery");
 if ( salary <= 20000 ){
   let tax = ( salary *10) / 100;
+  alert(`Your in-hand salary is ${salary-tax}`);
 }
 else if ( salary <= 40000 ){
-  tax= ( salary * 20) / 100 ;
+  tax = ( salary * 20) / 100 ;
+  alert(`Your in-hand salary is ${salary-tax}`);
 }
 else{
   tax = ( salary * 30) / 100;
+  alert(`Your in-hand salary is ${salary-tax}`);
 }
 
 switch(salary){
   case "salary <= 20000 ":
-    alert(`${tax= (salary *10) / 1000}`);
+    alert(`${tax = (salary *10) / 1000}`);
+    alert(`Your in-hand salary is ${salary-tax}`);
     break;
   case "salary <= 40000 ":
-    alert(`${tax= (salary *20) / 100}`);
+    alert(`${tax = (salary *20) / 100}`);
+    alert(`Your in-hand salary is ${salary-tax}`);
     break;
   default:
-    alert(`${tax= (salary *30) / 100}`);
+    alert(`${tax = (salary *30) / 100}`);
+    alert(`Your in-hand salary is ${salary-tax}`);
     break;
 }
 //  if..else vs switch
