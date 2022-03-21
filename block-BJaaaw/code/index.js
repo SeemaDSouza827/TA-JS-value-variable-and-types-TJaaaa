@@ -116,24 +116,24 @@ let month=+prompt(`Enter the numer of the  month`)
 */
 let salary = +prompt("Enter your salery");
 if ( salary <= 20000 ){
-  let tax = ( salary / 100 ) * 10;
+  let tax = ( salary *10) / 100;
 }
 else if ( salary <= 40000 ){
-  tax= ( salary / 100 ) * 20;
+  tax= ( salary * 20) / 100 ;
 }
 else{
-  tax = ( salary / 100 ) * 30;
+  tax = ( salary * 30) / 100;
 }
 
 switch(salary){
   case "salary <= 20000 ":
-    alert(`${tax= (salary /100) * 10}`);
+    alert(`${tax= (salary *10) / 1000}`);
     break;
   case "salary <= 40000 ":
-    alert(`${tax= (salary /100) * 20}`);
+    alert(`${tax= (salary *20) / 100}`);
     break;
   default:
-    alert(`${tax= (salary /100) * 30}`);
+    alert(`${tax= (salary *30) / 100}`);
     break;
 }
 //  if..else vs switch
